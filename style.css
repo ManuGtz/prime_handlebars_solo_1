@@ -1,0 +1,17 @@
+body {
+	background:gray;
+	
+}
+
+h2{
+	text-align: center;
+}
+
+.manu-content{
+	width: 300px;
+	font: normal normal 17px Arial;
+	display:block;
+	margin:0 auto;
+
+
+}

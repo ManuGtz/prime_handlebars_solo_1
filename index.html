@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Manu's Template</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    	<script src="template.js"></script>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h2>Manu's Template</h2>
+
+		<script id = "manu-template" type = "text/x-handlebars-template">
+			<p>My name is {{name}} {{lastName}}</p>
+			<p>My birthday is {{birthday}}</p>
+			<p>I was born in {{countryOfBirth}}</p>
+						
+				<ul>My hobbies are:
+					
+				{{#each hobbies}}
+				
+					<li>{{hobbie}}</li>
+				
+				{{/each}}
+				</ul>
+			</p>My sons name is {{son}}</p>
+		</script>
+
+		<div class = "manu-content"></div>
+
+
+
+	</body>
+
+
+
+</html>
